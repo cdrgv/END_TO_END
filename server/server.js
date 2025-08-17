@@ -8,13 +8,14 @@ const jwt = require("jsonwebtoken");
 const nodemailer = require('nodemailer');
 const app = express();
 app.use(express.json());
-app.use(cors({
-  origin: [
-    'https://statuesque-axolotl-6bf5d7.netlify.app/', // Your Netlify frontend
-    'http://localhost:3000',         // For local testing
-  ],
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
-}));
+const corsOptions = {
+  origin: "*", // allow all origins (you can restrict to your frontend URL later)
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  allowedHeaders: ["Content-Type", "Authorization"],
+};
+
+app.use(cors(corsOptions));
+
 const secretKey = process.env.ENCRYPTION_KEY; 
 const algorithm = "aes-256-cbc";
 function encryptPassword(password) {
