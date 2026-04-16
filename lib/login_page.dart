@@ -427,7 +427,7 @@ class _LoginPageState extends State<LoginPage> {
                               radius: 46,
                               child: Padding(
                                 padding: const EdgeInsets.all(8.0),
-                                child: Image.asset('web/logo1.png', height: 62),
+                                child: Image.asset('assets/logo1.png', height: 62),
                               ),
                             ),
                             SizedBox(height: 16),

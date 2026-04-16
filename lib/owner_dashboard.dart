@@ -218,7 +218,7 @@ class _OwnerDashboardState extends State<OwnerDashboard> {
                     child: Padding(
                       padding: EdgeInsets.all(7),
                       child: Image.asset(
-                        'web/logo1.png',
+                        'assets/logo1.png',
                         height: 33,
                         width: 33,
                       ),

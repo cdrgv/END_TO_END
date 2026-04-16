@@ -239,7 +239,7 @@ class _ShopListingPageState extends State<ShopListingPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'web/logo1.png',
+              'assets/logo1.png',
               height: 40,
             ),
           ],

@@ -133,7 +133,7 @@ class _HomePageState extends State<HomePage> {
                           )
                         ],
                       ),
-                      child: Image.asset('web/logo1.png', height: 45, filterQuality: FilterQuality.high),
+                      child: Image.asset('assets/logo1.png', height: 45, filterQuality: FilterQuality.high),
                     ),
                     const SizedBox(width: 30),
                     _buildNavButton("Home", _homeKey),
@@ -777,11 +777,11 @@ class FooterSection extends StatelessWidget {
   }
 
   final List<_SocialItem> socials = const [
-    _SocialItem(asset: 'web/facebook.png', url: 'https://www.facebook.com'),
-    _SocialItem(asset: 'web/xlogo.png', url: 'https://www.twitter.com'),
-    _SocialItem(asset: 'web/youtube.png', url: 'https://www.youtube.com'),
-    _SocialItem(asset: 'web/github.png', url: 'https://www.github.com'),
-    _SocialItem(asset: 'web/instagram.png', url: 'https://www.instagram.com'),
+    _SocialItem(asset: 'assets/facebook.png', url: 'https://www.facebook.com'),
+    _SocialItem(asset: 'assets/xlogo.png', url: 'https://www.twitter.com'),
+    _SocialItem(asset: 'assets/youtube.png', url: 'https://www.youtube.com'),
+    _SocialItem(asset: 'assets/github.png', url: 'https://www.github.com'),
+    _SocialItem(asset: 'assets/instagram.png', url: 'https://www.instagram.com'),
   ];
 
   @override

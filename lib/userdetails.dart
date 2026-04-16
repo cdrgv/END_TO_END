@@ -233,7 +233,7 @@ void _togglePasswordVisibility() {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Image.asset(
-                          'web/logo1.png',
+                          'assets/logo1.png',
                           height: 50,
                         ),
                         IconButton(

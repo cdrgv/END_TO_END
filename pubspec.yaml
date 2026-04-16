@@ -67,18 +67,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - .env
-     - web/logo1.png
-     - web/x.jpg
-     - web/y.jpg
-     - web/z.jpg
-     - web/status.jpg
-     - web/facebook.png
-     - web/instagram.png
-     - web/youtube.png
-     - web/twitter.png
-     - web/github.png
-     - web/xlogo.png
+     - assets/
+     
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -95,7 +85,7 @@ flutter:
   fonts:
     - family: TimesNewRoman
       fonts:
-        - asset: web/Times New Roman.ttf
+        - asset: assets/Times New Roman.ttf
   #      - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
