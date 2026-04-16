@@ -297,7 +297,7 @@ class HomeSection extends StatelessWidget {
                     FadeIn(
                       delay: Duration(milliseconds: 180),
                       child: Text(
-                        "Make every outing count with instant, detailed shop status. No more guesswork—just tap, search, and go. "
+                        "Know the smart status of every organization, shops or any other places and save your time"
                         "Real-time updates, powerful search—and complete planning power for your day!",
                         textAlign: TextAlign.center,
                         style: GoogleFonts.montserrat(
